@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1520px;
+    margin: 0;
+}
+
+.w33{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.clear{clear: both;}
+
+.logo{
+    float: left;
+}
+
+header h1{
+    position: absolute;
+    left: 35px;
+    padding: 8px;
+    font-size: 40px;
+    color: white;
+    z-index: 9999;
+    text-decoration: underline;
+}
+
+nav.menu-mobile h2{
+    position: relative;
+    cursor: pointer;
+    left: 40px;
+}
+
+nav.menu-mobile{
+    display: none;
+    float: right;
+    font-size: 27px;
+    color: white;
+
+}
+
+nav.menu-mobile ul{
+display: none;
+width: 100%;
+background: #cf7b31;
+position: absolute;
+left: 0;
+top: 70px;
+z-index: 999;
+text-align: center;
+}
+
+nav.menu-mobile li{
+  padding: 8px 0;
+  
+}
+
+nav.menu-mobile a{
+    color: black;
+    text-decoration: none;
+}
+
+nav.menu-desktop li.selected{font-weight: bold;text-decoration: underline;}
+
+div.bg-menu{
+    width: 100%;
+    height: 80px;
+    background: #2a2927;
+}
+
+nav.menu-desktop{
+    float: right;
+    padding: 30px;
+}
+
+nav.menu-desktop ul{
+    position: relative;
+}
+
+nav.menu-desktop li{
+    position: relative;
+  padding: 0 10px;
+    z-index: 2;
+    margin-right: 43px;
+    font-weight: lighter;
+    display: inline-block;
+}
+
+nav.menu-desktop a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.menu-desktop a:hover{text-decoration: underline;color: #865c36;}
+
+section.bgg{
+    width: 100%;
+    height: 360px;
+    background: #cf7b31;
+}
+
+section.main-bg{
+      position: relative;
+      width: 100%;
+      height: 900px;
+      background: url('../imagens/trasher.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}  
+
+section.main-bg .container{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+}
+
+section.main-bg .seu{
+    text-align: center;
+    font-size: 40px;
+    padding: 140px 0;
+    color: #cf7b31;
+    font-weight: bold;
+}
+
+section.main-bg .style{
+    text-align: center;
+    font-size: 80px;
+    padding: 140px 0;
+    color: #fff8f2;
+    font-weight: bold;
+}
+
+.icones-diferenciais{
+    text-align: center;
+    padding: 70px;
+}
+
+.box-icone-single{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.box-icone-single i{
+    font-size: 80px;
+}
+
+.box-icone-single p{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box-icone-single h3{
+    padding-top: 10px;
+    font-weight: lighter;
+}
+
+section.cards img{
+    border-radius: 0;
+} 
+
+.card-single h2{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #cf7b31;
+}
+
+.card-single{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+}
+
+.card-single img{
+    position: relative;
+    left: -28px;
+    width: 100%;
+}
+
+.footer1 p{
+    color: white;
+}
+
+.footer1 h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+.footer1 i{
+    color: white;
+    font-size: 30px;
+}
+
+footer.footer1{
+    background: #272624;
+    padding: 20px 0;
+    width: 100%;
+    height: 210px;
+    color: white;
+}
+
+footer.footer2{
+    background: #181717;
+    width: 100%;
+    height: 40px;
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+
+  nav.menu-desktop ul{display: none;}
+  nav.menu-mobile{
+      display: block;
+  }
+
+  footer.footer1{
+      height: 300px;
+  }
+
+  .w33{
+      width: 100%;
+      padding-top: 40px;
+  }
+
+    .card-single{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    section.bgg{
+        width: 100%;
+        height: 830px;
+        background: #cf7b31;
+    }
+
+    .box-icone-single{
+        padding-top: 24px;
+        width: 100%;
+    }
+}

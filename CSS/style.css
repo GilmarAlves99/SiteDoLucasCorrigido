@@ -25,8 +25,8 @@
 header h1{
     position: absolute;
     left: 35px;
-    padding: 8px;
-    font-size: 40px;
+    padding: 5px;
+    font-size: 1.5em;
     color: white;
     z-index: 9999;
     text-decoration: underline;
@@ -133,15 +133,15 @@ section.main-bg .container{
 
 section.main-bg .seu{
     text-align: center;
-    font-size: 40px;
-    padding: 140px 0;
+    font-size: 3rem;
+    padding:30px 140px ;
     color: #cf7b31;
     font-weight: bold;
 }
 
 section.main-bg .style{
     text-align: center;
-    font-size: 80px;
+    font-size:2.5rem;
     padding: 140px 0;
     color: #fff8f2;
     font-weight: bold;
